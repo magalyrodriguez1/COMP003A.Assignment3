@@ -14,33 +14,43 @@ namespace COMP003A.Assignment3
             Console.WriteLine("Enter a numeric grade (0-100):");
             string gradeInput = Console.ReadLine();
             double numericGrade = Convert.ToDouble(gradeInput);
-                   
+
+
+
             if (numericGrade >= 0 && numericGrade <= 100)
             {
-                Console.WriteLine("Letter Grade: A");
-            }
 
-            else if (numericGrade >= 80)
-            {
-                Console.WriteLine("Letter Grade: B");
-            }
+                if (numericGrade >= 90)
+                {
+                    Console.WriteLine("Letter Grade: A");
+                }
 
-            else if (numericGrade >= 70)
-            {
-                Console.WriteLine("Letter Grade: C");
-            }
+                else if (numericGrade >= 80)
+                {
+                    Console.WriteLine("Letter Grade: B");
+                }
 
-            else if (numericGrade >= 60)
-            {
-                Console.WriteLine("Letter Grade: D");
+                else if (numericGrade >= 70)
+                {
+                    Console.WriteLine("Letter Grade: C");
+                }
+
+                else if (numericGrade >= 60)
+                {
+                    Console.WriteLine("Letter Grade: D");
+                }
+
+                else
+                {
+                    Console.WriteLine("Letter Grade: F");
+                }
             }
 
             else
             {
-                Console.WriteLine("Letter Grade: F");
+                Console.WriteLine("Invalid input!");
             }
-
-
+            
         }
     }
 }
