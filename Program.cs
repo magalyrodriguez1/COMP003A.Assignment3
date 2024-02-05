@@ -65,7 +65,33 @@ namespace COMP003A.Assignment3
                     Console.WriteLine("String Day: Monday");
                     break;
 
-                case 2: 
+                case 2:
+                    Console.WriteLine("String Day: Tuesday");
+                    break;
+
+                case 3:
+                    Console.WriteLine("String Day: Wednesday");
+                    break;
+
+                case 4:
+                    Console.WriteLine("String Day: Thursday");
+                    break;
+
+                case 5:
+                    Console.WriteLine("String Day: Friday");
+                    break;
+
+                case 6:
+                    Console.WriteLine("String Day: Saturday");
+                    break;
+
+                case 7:
+                    Console.WriteLine("String Day: Sunday");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid day!");
+                    break;
             }
 
 
